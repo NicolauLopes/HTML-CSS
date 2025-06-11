@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --CorPreta: black;
+    --CorCinza: gray;
+}
+
+header{
+    background-color: var(--CorPreta);
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    
+}
+header > h4 {
+    padding: 20px;
+}
+section#poesia1{
+    margin: 20px;
+}
+
+section#poesia2{
+    background-color: white;
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section#poesia2>p{
+    margin: 20px;
+    background-color: var(--CorPreta);
+    background-attachment: scroll;
+    color: white;
+    width: 200px;
+
+}
+section#poesia4{
+    background-color: white;
+    background-image: url("imagens/background002.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section#poesia4>p{
+    background-color: var(--CorCinza);
+    background-attachment: scroll;
+    width: 200px;
+}
+footer{
+    background-color: var(--CorPreta);
+    color: white;
+    text-align: center;
+}
